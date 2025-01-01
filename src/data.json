@@ -1,45 +1,45 @@
 {
   "greeting": {
-    "title": "장세모 \uD83D\uDC8D 황네모\n결혼합니다!",
+    "title": "윤철중 \uD83D\uDC8D 김예슬\n결혼합니다!",
     "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
     "host": {
       "groom": {
-        "name": "세모",
+        "name": "윤철중",
         "relation": "아들",
         "parents": [
           {
             "relation": "아버지",
-            "name": "장아빠"
+            "name": "윤병혁"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "김효숙"
           }
         ]
       },
       "bride": {
-        "name": "네모",
+        "name": "김예슬",
         "relation": "딸",
         "parents": [
           {
             "relation": "아버지",
-            "name": "황아빠"
+            "name": "김태웅"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "유은경"
           }
         ]
       }
     },
-    "eventDetail": "2024년 2월 17일 (토) 14:00\n아펠가모 공덕 라로브홀"
+    "eventDetail": "2025년 4월 12일 (토) 14:50\n더파티움 여의도 2층 파티움홀"
   },
   "hostInfo": [
     {
       "host": "신랑측",
       "accountInfo": [
         {
-          "name": "장세모",
+          "name": "윤철중",
           "relation": "신랑",
           "bank": "카카오뱅크",
           "account": "1234-56-789012",
@@ -47,13 +47,13 @@
           "tossAccount": ""
         },
         {
-          "name": "장아빠",
+          "name": "윤병혁",
           "relation": "아버지",
           "bank": "농협",
           "account": "123-45-678901"
         },
         {
-          "name": "이엄마",
+          "name": "김효숙",
           "relation": "어머니",
           "bank": "농협",
           "account": "123-45-678901"
@@ -64,7 +64,7 @@
       "host": "신부측",
       "accountInfo": [
         {
-          "name": "황네모",
+          "name": "김예슬",
           "relation": "신부",
           "bank": "토스뱅크",
           "account": "1234-5678-9012",
@@ -72,13 +72,13 @@
           "tossAccount": ""
         },
         {
-          "name": "황아빠",
+          "name": "김태웅",
           "relation": "아버지",
           "bank": "농협",
           "account": "123-45-678901"
         },
         {
-          "name": "이엄마",
+          "name": "유은경",
           "relation": "어머니",
           "bank": "농협",
           "account": "123-45-678901"
@@ -87,21 +87,21 @@
     }
   ],
   "mapInfo": {
-    "address1": "아펠가모 공덕 라로브홀",
-    "address2": "서울 마포구 마포대로 92\n효성해링턴스퀘어 B동 7층\n02-2197-0230",
-    "naverMap": "https://map.naver.com/p/directions/-/14132311.1099497,4514956.9078363,%EC%95%84%ED%8E%A0%EA%B0%80%EB%AA%A8%20%EA%B3%B5%EB%8D%95,1929913788,PLACE_POI/-/transit?c=15.00,0,0,0,dh",
-    "kakaoMap": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,489503,1123003&rt1=&rt2=%EC%95%84%ED%8E%A0%EA%B0%80%EB%AA%A8%20%EA%B3%B5%EB%8D%95%EC%A0%90&rtIds=,630786038",
-    "lat": 37.54222,
-    "lon": 126.952708
+    "address1": "더파티움 여의도 2층 파티움홀",
+    "address2": "서울 영등포구 은행로 30 2층\n02-784-0000",
+    "naverMap": "https://map.naver.com/p/directions/-/14128964.8349246,4512964.8985057,더파티움,1018318622,PLACE_POI/-/transit?c=14.00,0,0,0,dh",
+    "kakaoMap": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,489503,1123003&rt1=&rt2=더파티움%20여의도&rtIds=,630786038",
+    "lat": 37.5281286,
+    "lon": 126.9225145
   },
   "locationInfo": [
     {
       "title": "\uD83D\uDCCD 지하철",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 5·6호선 공덕역 7번 출구 (도보 2분)\n\uD83D\uDC49\uD83C\uDFFB 경의·중앙선, 공항철도 공덕역 10번 출구 (도보 30초)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 9호선 국회의사당역 3번 출구 (도보 5분)\n\uD83D\uDC49\uD83C\uDFFB 5호선 여의나루역 2번 출구 (버스 11분)\n\uD83D\uDC49\uD83C\uDFFB 여의나루역 1번 출구 셔틀버스 수시 운행"
     },
     {
       "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 3-5층 2시간 무료주차\n(안내데스크에서 주차권 수령)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 하객 90분 무료\n(안내데스크에서 주차권 수령)"
     }
   ],
   "emojis": [
