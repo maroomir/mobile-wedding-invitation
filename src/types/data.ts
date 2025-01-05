@@ -49,6 +49,27 @@ export interface IMapInfo {
 }
 
 export interface ILocationInfo {
-  title: string;
-  desc: string;
+  carInfo: ICarInfo;
+  subwayStopInfo: ISubwayStopInfo [];
+  busStopInfo: IBusStopInfo [];
 }
+
+export interface ICarInfo {
+  name: string;
+  parkingInfo: IParkingInfo [];
+}
+
+export interface IParkingInfo { name: string; parkingTime: string; desc: string;}
+
+export interface ISubwayStopInfo {
+  name: string;
+  lineNumber: string [];
+  exits: string [];
+}
+
+export interface IBusStopInfo {
+  name: string;
+  busInfo: IBusInfo [];
+}
+
+export interface IBusInfo { number: string; type: string };

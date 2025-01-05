@@ -9,7 +9,8 @@ export const Heading1 = styled.p`
 `;
 
 export const Heading2 = styled.p`
-  font-size: 1rem;
+  font-family: SUITE-Regular, serif;
+  font-size: 1.3rem;
   margin: 10px;
   white-space: pre-line;
 `;
@@ -17,8 +18,7 @@ export const Heading2 = styled.p`
 export const PointTitle = styled.p`
   font-family: HSSanTokki20-Regular, serif;
   line-height: 1;
-  margin: 0;
-  color: #e88ca6;
+  margin: 5px; 
   white-space: pre-line;
 `;
 
@@ -31,4 +31,11 @@ export const Caption = styled.p<{ textAlign?: string }>`
   font-weight: 200;
   text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};
   white-space: pre-line;
+  margin: 3px;
+`;
+
+export const Hr = styled.hr`
+  border: none;
+  border-top: 1px solid #5f5f5f;
+  margin: 10px 0;
 `;
