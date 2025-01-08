@@ -18,7 +18,7 @@ const PhotoGallery = () => {
           gridTemplateColumns: 'repeat(3, 0fr)',
           gridGap: 2,
         }}>
-        {images.map((image, index) => {
+        {images.slice().reverse().map((image, index) => {
           return (
             <Item
               key={index}
