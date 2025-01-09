@@ -1,25 +1,32 @@
 import styled from '@emotion/styled';
 import data from 'data.json';
-import mainImg from '@/assets/images/image163.jpeg'
+import mainImg from '@/assets/images/image163.jpeg';
 
 const Main = () => {
   const { greeting } = data;
+
   return (
-    <div>
+    <MainWrapper>
       <MainImg src={mainImg} />
       <MainTitle>{greeting.title}</MainTitle>
       <SubTitle>{greeting.eventDetail}</SubTitle>
-    </div>
+    </MainWrapper>
   );
 };
 
 export default Main;
 
+// 스타일링
+const MainWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+`;
+
 const MainImg = styled.img`
-  border-radius: 200px 200px 0 0;
-  width: 90%;
-  max-width: 450px;
-  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
 `;
 
 const MainTitle = styled.p`

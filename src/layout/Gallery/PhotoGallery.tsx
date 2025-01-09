@@ -6,8 +6,8 @@ const PhotoGallery = () => {
   const smallItemStyles: React.CSSProperties = {
     cursor: 'pointer',
     objectFit: 'contain',
-    width: '100px',
-    height: '150px',
+    width: '90px',
+    height: '120px',
   };
 
   return (
@@ -15,8 +15,8 @@ const PhotoGallery = () => {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 0fr)',
-          gridGap: 2,
+          gridTemplateColumns: 'repeat(4, 1fr)',
+          gap: 'auto',
         }}>
         {images.slice().reverse().map((image, index) => {
           return (
