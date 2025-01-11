@@ -20,6 +20,7 @@ const Location = () => {
       <Bus />
       <Hr />
       <Subway />
+      <br />
     </LocationWrapper>
   );
 };
