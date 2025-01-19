@@ -43,7 +43,7 @@ const Wrapper = styled.div`
 `;
 
 const DDayText = styled.div`
-  font-family: Galmuri, serif;
+  font-family: TmonMonsori, serif;
   font-size: 3.6rem;
   background: linear-gradient(to bottom, #1d2359, #000002);
   -webkit-background-clip: text;
