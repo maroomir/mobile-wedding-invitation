@@ -30,7 +30,7 @@ const MainImg = styled.img`
 `;
 
 const MainTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: MaplestoryOTFBold, serif;
   font-size: 2rem;
   color: #2F2120;
   line-height: 120%;

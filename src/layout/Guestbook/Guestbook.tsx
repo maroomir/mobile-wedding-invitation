@@ -1,13 +1,13 @@
 import styled from '@emotion/styled';
 import CommentForm from './CommentForm.tsx';
-import { Heading2 } from '@/components/Text.tsx';
+import { Heading3 } from '@/components/Text.tsx';
 
 const Guestbook = () => {
   return (
     <GuestBookWrapper>
-      <Heading2>
-        메시지를 남겨주시면 저희들에게 전달됩니다.
-      </Heading2>
+      <Heading3>
+        메시지를 남겨주시면 저희들에게 전달됩니다.<br />여러분들이 남겨주신 축복에 진심으로 감사드립니다.
+      </Heading3>
       <CommentForm />
     </GuestBookWrapper>
   );
