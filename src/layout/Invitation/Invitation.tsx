@@ -78,15 +78,18 @@ const Invitation = () => {
       <Paragraph>{greeting.message}</Paragraph>
       <Host />
       <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
-      <RoundButton
-        target="_blank"
-        href={googleCalendarUrl}
-        rel="noreferrer">
-        구글 캘린더 추가하기
-      </RoundButton>
-      <RoundButton onClick={handleIcalDownload}>
-        애플 캘린더 추가하기
-      </RoundButton>
+      <ButtonContainer>
+        <RoundButton
+          target="_blank"
+          href={googleCalendarUrl}
+          rel="noreferrer">
+          구글 캘린더 추가하기
+        </RoundButton>
+        <RoundButton onClick={handleIcalDownload}>
+          애플 캘린더 추가하기
+        </RoundButton>
+      </ButtonContainer>
+      <br />
     </InvitationWrapper>
   );
 };
@@ -98,4 +101,10 @@ const InvitationWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 `;
