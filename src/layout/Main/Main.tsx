@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import data from 'data.json';
 import mainImg from '@/assets/images/image180.jpg';
+import DDay from './DDay';
 
 const Main = () => {
   const { greeting } = data;
@@ -10,6 +11,8 @@ const Main = () => {
       <MainImg src={mainImg} />
       <MainTitle>{greeting.title}</MainTitle>
       <SubTitle>{greeting.eventDetail}</SubTitle>
+      <DDay eventDate={greeting.eventDate} />
+      <br />
     </MainWrapper>
   );
 };

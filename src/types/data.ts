@@ -23,6 +23,7 @@ export interface IGreeting {
       parents: Parent;
     };
   };
+  eventDate: string;
   eventDetail: string;
 }
 
