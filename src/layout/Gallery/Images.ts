@@ -1,4 +1,3 @@
-import image001 from '@/assets/images/image001.jpeg'
 import image002 from '@/assets/images/image002.jpeg'
 import image003 from '@/assets/images/image003.jpeg'
 import image004 from '@/assets/images/image004.jpeg'
@@ -66,13 +65,7 @@ import image065 from '@/assets/images/image065.jpeg'
 import image066 from '@/assets/images/image066.jpeg'
 import image067 from '@/assets/images/image067.jpeg'
 import image068 from '@/assets/images/image068.jpeg'
-import image069 from '@/assets/images/image069.jpeg'
-import image070 from '@/assets/images/image070.jpeg'
-import image071 from '@/assets/images/image071.jpeg'
-import image072 from '@/assets/images/image072.jpeg'
 import image073 from '@/assets/images/image073.jpeg'
-import image074 from '@/assets/images/image074.jpeg'
-import image075 from '@/assets/images/image075.jpeg'
 import image076 from '@/assets/images/image076.jpeg'
 import image077 from '@/assets/images/image077.jpeg'
 import image078 from '@/assets/images/image078.jpeg'
@@ -88,7 +81,6 @@ import image087 from '@/assets/images/image087.jpeg'
 import image088 from '@/assets/images/image088.jpeg'
 import image089 from '@/assets/images/image089.jpeg'
 import image090 from '@/assets/images/image090.jpeg'
-import image091 from '@/assets/images/image091.jpeg'
 import image092 from '@/assets/images/image092.jpeg'
 import image093 from '@/assets/images/image093.jpeg'
 import image094 from '@/assets/images/image094.jpeg'
@@ -99,21 +91,13 @@ import image098 from '@/assets/images/image098.jpeg'
 import image099 from '@/assets/images/image099.jpeg'
 import image100 from '@/assets/images/image100.jpeg'
 import image101 from '@/assets/images/image101.jpeg'
-import image102 from '@/assets/images/image102.jpeg'
 import image103 from '@/assets/images/image103.jpeg'
-import image104 from '@/assets/images/image104.jpeg'
-import image105 from '@/assets/images/image105.jpeg'
-import image106 from '@/assets/images/image106.jpeg'
 import image107 from '@/assets/images/image107.jpeg'
-import image108 from '@/assets/images/image108.jpeg'
 import image109 from '@/assets/images/image109.jpeg'
-import image110 from '@/assets/images/image110.jpeg'
 import image111 from '@/assets/images/image111.jpeg'
-import image112 from '@/assets/images/image112.jpeg'
 import image113 from '@/assets/images/image113.jpeg'
 import image114 from '@/assets/images/image114.jpeg'
 import image115 from '@/assets/images/image115.jpeg'
-import image116 from '@/assets/images/image116.jpeg'
 import image117 from '@/assets/images/image117.jpeg'
 import image118 from '@/assets/images/image118.jpeg'
 import image119 from '@/assets/images/image119.jpeg'
@@ -121,11 +105,9 @@ import image120 from '@/assets/images/image120.jpeg'
 import image121 from '@/assets/images/image121.jpeg'
 import image122 from '@/assets/images/image122.jpeg'
 import image123 from '@/assets/images/image123.jpeg'
-import image124 from '@/assets/images/image124.jpeg'
 import image125 from '@/assets/images/image125.jpeg'
 import image126 from '@/assets/images/image126.jpeg'
 import image127 from '@/assets/images/image127.jpeg'
-import image128 from '@/assets/images/image128.jpeg'
 import image129 from '@/assets/images/image129.jpeg'
 import image130 from '@/assets/images/image130.jpeg'
 import image131 from '@/assets/images/image131.jpeg'
@@ -134,14 +116,9 @@ import image133 from '@/assets/images/image133.jpeg'
 import image134 from '@/assets/images/image134.jpeg'
 import image135 from '@/assets/images/image135.jpeg'
 import image136 from '@/assets/images/image136.jpeg'
-import image137 from '@/assets/images/image137.jpeg'
-import image138 from '@/assets/images/image138.jpeg'
 import image139 from '@/assets/images/image139.jpeg'
 import image140 from '@/assets/images/image140.jpeg'
-import image141 from '@/assets/images/image141.jpeg'
-import image142 from '@/assets/images/image142.jpeg'
 import image143 from '@/assets/images/image143.jpeg'
-import image144 from '@/assets/images/image144.jpeg'
 import image145 from '@/assets/images/image145.jpeg'
 import image146 from '@/assets/images/image146.jpeg'
 import image147 from '@/assets/images/image147.jpeg'
@@ -161,14 +138,33 @@ import image160 from '@/assets/images/image160.jpeg'
 import image161 from '@/assets/images/image161.jpeg'
 import image162 from '@/assets/images/image162.jpeg'
 import image163 from '@/assets/images/image163.jpeg'
+import image164 from '@/assets/images/image164.jpg'
+import image165 from '@/assets/images/image165.jpg'
+import image166 from '@/assets/images/image166.jpg'
+import image167 from '@/assets/images/image167.jpg'
+import image168 from '@/assets/images/image168.jpg'
+import image169 from '@/assets/images/image169.jpg'
+import image170 from '@/assets/images/image170.jpg'
+import image171 from '@/assets/images/image171.jpg'
+import image172 from '@/assets/images/image172.jpg'
+import image173 from '@/assets/images/image173.jpg'
+import image174 from '@/assets/images/image174.jpg'
+import image175 from '@/assets/images/image175.jpg'
+import image176 from '@/assets/images/image176.jpg'
+import image177 from '@/assets/images/image177.jpg'
+import image178 from '@/assets/images/image178.jpg'
+import image179 from '@/assets/images/image179.jpg'
+import image180 from '@/assets/images/image180.jpg'
+import image181 from '@/assets/images/image181.jpg'
+import image182 from '@/assets/images/image182.jpg'
+import image183 from '@/assets/images/image183.jpg'
+import image184 from '@/assets/images/image184.jpg'
+import image185 from '@/assets/images/image185.jpg'
+import image186 from '@/assets/images/image186.jpg'
+import image187 from '@/assets/images/image187.jpg'
+import image188 from '@/assets/images/image188.jpg'
 
 const images = [
-  {
-    alt: 'image001',
-    source: image001,
-    width: 854,
-    height: 1280
-  },
   {
     alt: 'image002',
     source: image002,
@@ -572,44 +568,8 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image069',
-    source: image069,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image070',
-    source: image070,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image071',
-    source: image071,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image072',
-    source: image072,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image073',
     source: image073,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image074',
-    source: image074,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image075',
-    source: image075,
     width: 854,
     height: 1280
   },
@@ -704,12 +664,6 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image091',
-    source: image091,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image092',
     source: image092,
     width: 854,
@@ -770,32 +724,8 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image102',
-    source: image102,
-    width: 877,
-    height: 1280
-  },
-  {
     alt: 'image103',
     source: image103,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image104',
-    source: image104,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image105',
-    source: image105,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image106',
-    source: image106,
     width: 854,
     height: 1280
   },
@@ -806,32 +736,14 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image108',
-    source: image108,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image109',
     source: image109,
     width: 854,
     height: 1280
   },
   {
-    alt: 'image110',
-    source: image110,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image111',
     source: image111,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image112',
-    source: image112,
     width: 854,
     height: 1280
   },
@@ -850,12 +762,6 @@ const images = [
   {
     alt: 'image115',
     source: image115,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image116',
-    source: image116,
     width: 854,
     height: 1280
   },
@@ -902,12 +808,6 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image124',
-    source: image124,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image125',
     source: image125,
     width: 854,
@@ -922,12 +822,6 @@ const images = [
   {
     alt: 'image127',
     source: image127,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image128',
-    source: image128,
     width: 854,
     height: 1280
   },
@@ -980,18 +874,6 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image137',
-    source: image137,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image138',
-    source: image138,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image139',
     source: image139,
     width: 854,
@@ -1004,26 +886,8 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image141',
-    source: image141,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image142',
-    source: image142,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image143',
     source: image143,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image144',
-    source: image144,
     width: 854,
     height: 1280
   },
@@ -1140,6 +1004,156 @@ const images = [
     source: image163,
     width: 854,
     height: 1280
+  },
+  {
+    alt: 'image164',
+    source: image164,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image165',
+    source: image165,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image166',
+    source: image166,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image167',
+    source: image167,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image168',
+    source: image168,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image169',
+    source: image169,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image170',
+    source: image170,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image171',
+    source: image171,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image172',
+    source: image172,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image173',
+    source: image173,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image174',
+    source: image174,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image175',
+    source: image175,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image176',
+    source: image176,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image177',
+    source: image177,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image178',
+    source: image178,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image179',
+    source: image179,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image180',
+    source: image180,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image181',
+    source: image181,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image182',
+    source: image182,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image183',
+    source: image183,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image184',
+    source: image184,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image185',
+    source: image185,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image186',
+    source: image186,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image187',
+    source: image187,
+    width: 4000,
+    height: 6000
+  },
+  {
+    alt: 'image188',
+    source: image188,
+    width: 4000,
+    height: 6000
   },
 ];
 
