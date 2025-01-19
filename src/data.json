@@ -41,22 +41,22 @@
         {
           "name": "윤철중",
           "relation": "신랑",
-          "bank": "카카오뱅크",
-          "account": "1234-56-789012",
+          "bank": "국민은행",
+          "account": "405901-01-067583",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
         {
           "name": "윤병혁",
           "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "신한은행",
+          "account": "110-038-011220"
         },
         {
           "name": "김효숙",
           "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "국민은행",
+          "account": "432125-88-144656"
         }
       ]
     },
@@ -66,22 +66,22 @@
         {
           "name": "김예슬",
           "relation": "신부",
-          "bank": "토스뱅크",
-          "account": "1234-5678-9012",
+          "bank": "신한은행",
+          "account": "110-440-426030",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
         {
           "name": "김태웅",
           "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "기업은행",
+          "account": "476-053291-01-022"
         },
         {
           "name": "유은경",
           "relation": "어머니",
           "bank": "농협",
-          "account": "123-45-678901"
+          "account": "131-02-047870"
         }
       ]
     }
