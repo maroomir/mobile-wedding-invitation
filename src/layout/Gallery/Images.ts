@@ -18,8 +18,6 @@ import image036 from '@/assets/images/image036.jpeg'
 import image041 from '@/assets/images/image041.jpeg'
 import image043 from '@/assets/images/image043.jpeg'
 import image048 from '@/assets/images/image048.jpeg'
-import image049 from '@/assets/images/image049.jpeg'
-import image051 from '@/assets/images/image051.jpeg'
 import image053 from '@/assets/images/image053.jpeg'
 import image055 from '@/assets/images/image055.jpeg'
 import image057 from '@/assets/images/image057.jpeg'
@@ -31,8 +29,6 @@ import image076 from '@/assets/images/image076.jpeg'
 import image078 from '@/assets/images/image078.jpeg'
 import image079 from '@/assets/images/image079.jpeg'
 import image080 from '@/assets/images/image080.jpeg'
-import image082 from '@/assets/images/image082.jpeg'
-import image088 from '@/assets/images/image088.jpeg'
 import image092 from '@/assets/images/image092.jpeg'
 import image094 from '@/assets/images/image094.jpeg'
 import image095 from '@/assets/images/image095.jpeg'
@@ -56,7 +52,6 @@ import image147 from '@/assets/images/image147.jpeg'
 import image148 from '@/assets/images/image148.jpeg'
 import image150 from '@/assets/images/image150.jpeg'
 import image153 from '@/assets/images/image153.jpeg'
-import image157 from '@/assets/images/image157.jpeg'
 import image158 from '@/assets/images/image158.jpeg'
 import image160 from '@/assets/images/image160.jpeg'
 import image161 from '@/assets/images/image161.jpeg'
@@ -66,9 +61,7 @@ import image165 from '@/assets/images/image165.jpg'
 import image166 from '@/assets/images/image166.jpg'
 import image167 from '@/assets/images/image167.jpg'
 import image168 from '@/assets/images/image168.jpg'
-import image169 from '@/assets/images/image169.jpg'
 import image170 from '@/assets/images/image170.jpg'
-import image171 from '@/assets/images/image171.jpg'
 import image172 from '@/assets/images/image172.jpg'
 import image173 from '@/assets/images/image173.jpg'
 import image174 from '@/assets/images/image174.jpg'
@@ -84,7 +77,6 @@ import image183 from '@/assets/images/image183.jpg'
 import image184 from '@/assets/images/image184.jpg'
 import image185 from '@/assets/images/image185.jpg'
 import image186 from '@/assets/images/image186.jpg'
-import image187 from '@/assets/images/image187.jpg'
 import image188 from '@/assets/images/image188.jpg'
 
 const images = [
@@ -209,18 +201,6 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image049',
-    source: image049,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image051',
-    source: image051,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image053',
     source: image053,
     width: 855,
@@ -283,18 +263,6 @@ const images = [
   {
     alt: 'image080',
     source: image080,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image082',
-    source: image082,
-    width: 854,
-    height: 1280
-  },
-  {
-    alt: 'image088',
-    source: image088,
     width: 854,
     height: 1280
   },
@@ -437,12 +405,6 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image157',
-    source: image157,
-    width: 854,
-    height: 1280
-  },
-  {
     alt: 'image158',
     source: image158,
     width: 854,
@@ -497,20 +459,8 @@ const images = [
     height: 1280
   },
   {
-    alt: 'image169',
-    source: image169,
-    width: 853,
-    height: 1280
-  },
-  {
     alt: 'image170',
     source: image170,
-    width: 853,
-    height: 1280
-  },
-  {
-    alt: 'image171',
-    source: image171,
     width: 853,
     height: 1280
   },
@@ -601,12 +551,6 @@ const images = [
   {
     alt: 'image186',
     source: image186,
-    width: 853,
-    height: 1280
-  },
-  {
-    alt: 'image187',
-    source: image187,
     width: 853,
     height: 1280
   },
