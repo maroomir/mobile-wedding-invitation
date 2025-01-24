@@ -3,7 +3,6 @@ import image006 from '@/assets/images/image006.jpeg'
 import image008 from '@/assets/images/image008.jpeg'
 import image009 from '@/assets/images/image009.jpeg'
 import image011 from '@/assets/images/image011.jpeg'
-import image012 from '@/assets/images/image012.jpeg'
 import image015 from '@/assets/images/image015.jpeg'
 import image016 from '@/assets/images/image016.jpeg'
 import image020 from '@/assets/images/image020.jpeg'
@@ -16,7 +15,6 @@ import image033 from '@/assets/images/image033.jpeg'
 import image035 from '@/assets/images/image035.jpeg'
 import image036 from '@/assets/images/image036.jpeg'
 import image041 from '@/assets/images/image041.jpeg'
-import image043 from '@/assets/images/image043.jpeg'
 import image048 from '@/assets/images/image048.jpeg'
 import image053 from '@/assets/images/image053.jpeg'
 import image055 from '@/assets/images/image055.jpeg'
@@ -27,7 +25,6 @@ import image064 from '@/assets/images/image064.jpeg'
 import image073 from '@/assets/images/image073.jpeg'
 import image076 from '@/assets/images/image076.jpeg'
 import image078 from '@/assets/images/image078.jpeg'
-import image079 from '@/assets/images/image079.jpeg'
 import image080 from '@/assets/images/image080.jpeg'
 import image092 from '@/assets/images/image092.jpeg'
 import image094 from '@/assets/images/image094.jpeg'
@@ -38,10 +35,7 @@ import image099 from '@/assets/images/image099.jpeg'
 import image100 from '@/assets/images/image100.jpeg'
 import image101 from '@/assets/images/image101.jpeg'
 import image103 from '@/assets/images/image103.jpeg'
-import image118 from '@/assets/images/image118.jpeg'
-import image120 from '@/assets/images/image120.jpeg'
 import image122 from '@/assets/images/image122.jpeg'
-import image125 from '@/assets/images/image125.jpeg'
 import image129 from '@/assets/images/image129.jpeg'
 import image130 from '@/assets/images/image130.jpeg'
 import image136 from '@/assets/images/image136.jpeg'
@@ -57,7 +51,6 @@ import image160 from '@/assets/images/image160.jpeg'
 import image161 from '@/assets/images/image161.jpeg'
 import image163 from '@/assets/images/image163.jpeg'
 import image164 from '@/assets/images/image164.jpg'
-import image165 from '@/assets/images/image165.jpg'
 import image166 from '@/assets/images/image166.jpg'
 import image167 from '@/assets/images/image167.jpg'
 import image168 from '@/assets/images/image168.jpg'
@@ -92,7 +85,6 @@ import image199 from '@/assets/images/image199.jpg'
 import image203 from '@/assets/images/image203.jpg'
 import image204 from '@/assets/images/image204.jpg'
 import image205 from '@/assets/images/image205.jpg'
-import image206 from '@/assets/images/image206.jpg'
 import image207 from '@/assets/images/image207.jpg'
 import image208 from '@/assets/images/image208.jpg'
 import image209 from '@/assets/images/image209.jpg'
@@ -127,12 +119,6 @@ const images = [
   {
     alt: 'image011',
     source: image011,
-    width: 427,
-    height: 640
-  },
-  {
-    alt: 'image012',
-    source: image012,
     width: 427,
     height: 640
   },
@@ -209,12 +195,6 @@ const images = [
     height: 640
   },
   {
-    alt: 'image043',
-    source: image043,
-    width: 427,
-    height: 640
-  },
-  {
     alt: 'image048',
     source: image048,
     width: 427,
@@ -271,12 +251,6 @@ const images = [
   {
     alt: 'image078',
     source: image078,
-    width: 427,
-    height: 640
-  },
-  {
-    alt: 'image079',
-    source: image079,
     width: 427,
     height: 640
   },
@@ -341,26 +315,8 @@ const images = [
     height: 640
   },
   {
-    alt: 'image118',
-    source: image118,
-    width: 427,
-    height: 640
-  },
-  {
-    alt: 'image120',
-    source: image120,
-    width: 427,
-    height: 640
-  },
-  {
     alt: 'image122',
     source: image122,
-    width: 427,
-    height: 640
-  },
-  {
-    alt: 'image125',
-    source: image125,
     width: 427,
     height: 640
   },
@@ -451,12 +407,6 @@ const images = [
   {
     alt: 'image164',
     source: image164,
-    width: 426,
-    height: 640
-  },
-  {
-    alt: 'image165',
-    source: image165,
     width: 426,
     height: 640
   },
@@ -661,12 +611,6 @@ const images = [
   {
     alt: 'image205',
     source: image205,
-    width: 426,
-    height: 640
-  },
-  {
-    alt: 'image206',
-    source: image206,
     width: 426,
     height: 640
   },

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import data from 'data.json';
-import mainImg from '@/assets/images/image180.jpg';
+import mainImg from '@/assets/images/image205.jpg';
 import DDay from './DDay';
 
 const Main = () => {
