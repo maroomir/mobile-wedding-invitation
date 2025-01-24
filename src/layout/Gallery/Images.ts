@@ -78,487 +78,627 @@ import image184 from '@/assets/images/image184.jpg'
 import image185 from '@/assets/images/image185.jpg'
 import image186 from '@/assets/images/image186.jpg'
 import image188 from '@/assets/images/image188.jpg'
+import image189 from '@/assets/images/image189.jpg'
+import image190 from '@/assets/images/image190.jpg'
+import image191 from '@/assets/images/image191.jpg'
+import image192 from '@/assets/images/image192.jpg'
+import image193 from '@/assets/images/image193.jpg'
+import image194 from '@/assets/images/image194.jpg'
+import image195 from '@/assets/images/image195.jpg'
+import image196 from '@/assets/images/image196.jpg'
+import image197 from '@/assets/images/image197.jpg'
+import image198 from '@/assets/images/image198.jpg'
+import image199 from '@/assets/images/image199.jpg'
+import image203 from '@/assets/images/image203.jpg'
+import image204 from '@/assets/images/image204.jpg'
+import image205 from '@/assets/images/image205.jpg'
+import image206 from '@/assets/images/image206.jpg'
+import image207 from '@/assets/images/image207.jpg'
+import image208 from '@/assets/images/image208.jpg'
+import image209 from '@/assets/images/image209.jpg'
+import image210 from '@/assets/images/image210.jpg'
+import image211 from '@/assets/images/image211.jpg'
 
 const images = [
   {
     alt: 'image002',
     source: image002,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image006',
     source: image006,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image008',
     source: image008,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image009',
     source: image009,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image011',
     source: image011,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image012',
     source: image012,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image015',
     source: image015,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image016',
     source: image016,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image020',
     source: image020,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image022',
     source: image022,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image023',
     source: image023,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image025',
     source: image025,
-    width: 915,
-    height: 1280
+    width: 457,
+    height: 640
   },
   {
     alt: 'image028',
     source: image028,
-    width: 915,
-    height: 1280
+    width: 457,
+    height: 640
   },
   {
     alt: 'image032',
     source: image032,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image033',
     source: image033,
-    width: 915,
-    height: 1280
+    width: 457,
+    height: 640
   },
   {
     alt: 'image035',
     source: image035,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image036',
     source: image036,
-    width: 915,
-    height: 1280
+    width: 457,
+    height: 640
   },
   {
     alt: 'image041',
     source: image041,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image043',
     source: image043,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image048',
     source: image048,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image053',
     source: image053,
-    width: 855,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image055',
     source: image055,
-    width: 872,
-    height: 1280
+    width: 436,
+    height: 640
   },
   {
     alt: 'image057',
     source: image057,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image059',
     source: image059,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image061',
     source: image061,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image064',
     source: image064,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image073',
     source: image073,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image076',
     source: image076,
-    width: 960,
-    height: 1280
+    width: 480,
+    height: 640
   },
   {
     alt: 'image078',
     source: image078,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image079',
     source: image079,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image080',
     source: image080,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image092',
     source: image092,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image094',
     source: image094,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image095',
     source: image095,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image097',
     source: image097,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image098',
     source: image098,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image099',
     source: image099,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image100',
     source: image100,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image101',
     source: image101,
-    width: 877,
-    height: 1280
+    width: 438,
+    height: 640
   },
   {
     alt: 'image103',
     source: image103,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image118',
     source: image118,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image120',
     source: image120,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image122',
     source: image122,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image125',
     source: image125,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image129',
     source: image129,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image130',
     source: image130,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image136',
     source: image136,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image140',
     source: image140,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image143',
     source: image143,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image146',
     source: image146,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image147',
     source: image147,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image148',
     source: image148,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image150',
     source: image150,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image153',
     source: image153,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image158',
     source: image158,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image160',
     source: image160,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image161',
     source: image161,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image163',
     source: image163,
-    width: 854,
-    height: 1280
+    width: 427,
+    height: 640
   },
   {
     alt: 'image164',
     source: image164,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image165',
     source: image165,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image166',
     source: image166,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image167',
     source: image167,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image168',
     source: image168,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image170',
     source: image170,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image172',
     source: image172,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image173',
     source: image173,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image174',
     source: image174,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image175',
     source: image175,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image176',
     source: image176,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image177',
     source: image177,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image178',
     source: image178,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image179',
     source: image179,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image180',
     source: image180,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image181',
     source: image181,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image182',
     source: image182,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image183',
     source: image183,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image184',
     source: image184,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image185',
     source: image185,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image186',
     source: image186,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
   },
   {
     alt: 'image188',
     source: image188,
-    width: 853,
-    height: 1280
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image189',
+    source: image189,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image190',
+    source: image190,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image191',
+    source: image191,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image192',
+    source: image192,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image193',
+    source: image193,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image194',
+    source: image194,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image195',
+    source: image195,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image196',
+    source: image196,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image197',
+    source: image197,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image198',
+    source: image198,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image199',
+    source: image199,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image203',
+    source: image203,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image204',
+    source: image204,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image205',
+    source: image205,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image206',
+    source: image206,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image207',
+    source: image207,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image208',
+    source: image208,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image209',
+    source: image209,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image210',
+    source: image210,
+    width: 426,
+    height: 640
+  },
+  {
+    alt: 'image211',
+    source: image211,
+    width: 426,
+    height: 640
   },
 ];
 

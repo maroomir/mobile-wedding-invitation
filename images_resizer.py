@@ -57,7 +57,7 @@ if __name__ == "__main__":
     resized_folder = "src/assets/resized"   # 출력 이미지 폴더
 
     # 높이나 너비 지정
-    target_dimension = 1280  # 원하는 크기 (px)
+    target_dimension = 640  # 원하는 크기 (px)
     resize_by = "height"     # "width" 또는 "height" 선택
 
     resize_images(images_folder, target_dimension, resize_by, resized_folder)
