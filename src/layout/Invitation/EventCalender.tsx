@@ -6,20 +6,29 @@ import 'react-calendar/dist/Calendar.css';
 
 const EventCalendar = () => {
   const { greeting } = data;
-
   const eventDate = new Date(greeting.eventDate);
-  const isEventDate = (date: Date) => eventDate.toDateString() === date.toDateString();
+
   return (
     <CalendarWrapper>
       <StyledCalendar
+        calendarType='gregory'
+        activeStartDate={ eventDate } // 캘린더를 eventDate 로 고정
+        onActiveStartDateChange={({ activeStartDate }) => {
+          if (activeStartDate?.getMonth() !== eventDate.getMonth() || 
+              activeStartDate?.getFullYear() !== eventDate.getFullYear()) {
+            return false;
+          }
+        }}
         formatDay={(_, date) => moment(date).format('DD')} // 날짜 형식 커스터마이징
         tileClassName={({ date, view }) => {
-          if (view === 'month' && isEventDate(date)) {
+          if (view === 'month' && 
+              eventDate.toDateString() === date.toDateString()) {
             return 'event-day';
           }
           return '';
         }}
       />
+      <br />
     </CalendarWrapper>
   );
 }
@@ -52,9 +61,17 @@ const StyledCalendar = styled(Calendar)`
     padding: 25px;
   }
 
+  .react-calendar__navigation__arrow {
+    color: transparent;
+    pointer-events: none; /* 클릭 이벤트 비활성화 */
+  }
+
   .react-calendar__navigation__label {
+    font-family: MaplestoryOTFBold, sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    color: white;
+    pointer-events: none; /* 클릭 이벤트 비활성화 */
   }
 
   .react-calendar__month-view__weekdays {
@@ -65,7 +82,6 @@ const StyledCalendar = styled(Calendar)`
   .react-calendar__tile {
     text-align: center;
     padding: 10px;
-    font-family: MaplestoryOTFBold, sans-serif;
     font-size: 1.2rem;
     background-color: transparent;
     transition: all 0.3s ease;
@@ -83,12 +99,14 @@ const StyledCalendar = styled(Calendar)`
   }
 
   .react-calendar__tile--now {
+    font-family: MaplestoryOTFBold, sans-serif;
     background-color: #4caf50 !important; /* 오늘 날짜 색상 */
     color: white !important;
     border-radius: 30%; /* 원형으로 유지 */
   }
 
   .event-day {
+    font-family: MaplestoryOTFBold, sans-serif;
     background-color: #e88ca6 !important; /* 이벤트 날짜 색상 */
     color: white !important;
     border-radius: 30%; /* 이벤트 날짜 둥글게 */

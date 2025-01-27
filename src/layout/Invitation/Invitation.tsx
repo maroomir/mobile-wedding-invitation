@@ -89,7 +89,6 @@ const Invitation = () => {
           애플 캘린더 추가하기
         </RoundButton>
       </ButtonContainer>
-      <br />
     </InvitationWrapper>
   );
 };
