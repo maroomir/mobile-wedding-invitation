@@ -45,6 +45,7 @@ export interface IMapInfo {
   address2: string;
   naverMap: string;
   kakaoMap: string;
+  tMap: string;
   lat: number;
   lon: number;
 }

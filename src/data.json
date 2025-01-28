@@ -90,8 +90,9 @@
   "mapInfo": {
     "address1": "더파티움 여의도 2층 파티움홀",
     "address2": "서울 영등포구 은행로 30 2층\n02-784-0000",
-    "naverMap": "https://map.naver.com/p/directions/-/14128964.8349246,4512964.8985057,더파티움,1018318622,PLACE_POI/-/transit?c=14.00,0,0,0,dh",
-    "kakaoMap": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,489503,1123003&rt1=&rt2=더파티움%20여의도&rtIds=,630786038",
+    "naverMap": "https://map.naver.com/p/entry/place/1018318622?c=15.00,0,0,0,dh",
+    "kakaoMap": "https://map.kakao.com/?itemId=1485166493",
+    "tMap": "https://tmap.life/89d186f0",
     "lat": 37.5281286,
     "lon": 126.9225145
   },
