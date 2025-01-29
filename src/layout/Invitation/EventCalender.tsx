@@ -39,7 +39,7 @@ const CalendarWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 10px 0;
   font-family: SUITE-Regular, sans-serif;
 `;
 
@@ -59,6 +59,7 @@ const StyledCalendar = styled(Calendar)`
     color: white;
     border-radius: 10px 10px 0 0;
     padding: 25px;
+    justify-content: center;
   }
 
   .react-calendar__navigation__arrow {
@@ -71,6 +72,7 @@ const StyledCalendar = styled(Calendar)`
     font-size: 1rem;
     font-weight: bold;
     color: white;
+    flex-shrink: 0;
     pointer-events: none; /* 클릭 이벤트 비활성화 */
   }
 

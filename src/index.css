@@ -2,6 +2,7 @@ body {
   font-family: SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  overflow-x: hidden !important;
 
   color: rgba(255, 255, 255, 0.87);
 
@@ -14,7 +15,7 @@ body {
   text-align: center;
   margin: 0 auto;
   min-width: 280px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   background-color: #fdeeee;
 }

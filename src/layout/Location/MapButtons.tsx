@@ -21,4 +21,5 @@ const MapButtonWrapper = styled.div`
   display: flex;
   gap: 8px;
   justify-content: center;
+  flex-shrink: 0;
 `;
