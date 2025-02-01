@@ -3,20 +3,14 @@ import 'photoswipe/style.css';
 import images from '@/layout/Gallery/Images.ts';
 
 const PhotoGallery = () => {
-  const smallItemStyles: React.CSSProperties = {
-    cursor: 'pointer',
-    objectFit: 'contain',
-    width: '75px',  // 25 X 3
-    height: '100px',  // 25 X 4
-  };
-
   return (
     <Gallery>
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(4, 0fr)',
-          gap: 'auto',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(80px, 1fr))', // 최소 80px, 최대 가변
+          gap: '5px', // 이미지 간격
+          width: '100%', // 전체 너비 사용
         }}>
         {images.slice().reverse().map((image, index) => {
           return (
@@ -29,7 +23,13 @@ const PhotoGallery = () => {
               height={image.height}>
               {({ ref, open }) => (
                 <img
-                  style={smallItemStyles}
+                  style={{
+                    cursor: 'pointer',
+                    objectFit: 'contain',
+                    width: '100%', // 셀 크기에 맞게 조정
+                    height: 'auto', // 비율 유지
+                    aspectRatio: '3 / 4', // 고정된 비율 유지
+                  }}
                   alt={image.alt}
                   src={image.source}
                   ref={ref as React.MutableRefObject<HTMLImageElement>}

@@ -6,7 +6,7 @@ const Guestbook = () => {
   return (
     <GuestBookWrapper>
       <Heading3>
-        메시지를 남겨주시면 저희들에게 전달됩니다.<br />여러분들이 남겨주신 축복에 감사드립니다.
+        메시지를 남겨주시면 저희에게 전달됩니다.<br />여러분들이 남겨주신 축복에 감사드립니다.
       </Heading3>
       <CommentForm />
     </GuestBookWrapper>
