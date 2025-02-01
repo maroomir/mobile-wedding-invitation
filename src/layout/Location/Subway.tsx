@@ -69,7 +69,7 @@ const SubwayStop = styled.div`
 
 const SubwayList = styled.div`
   display: flex;
-  flex-wrap: wrap; /* 줄 바꿈 허용 */
+  flex-shrink: 0; /* 줄바꿈 비허용 */
   gap: 1px; /* 아이템 간격 */
   align-items: center; /* 내부 요소 수직 정렬 */
 `;
