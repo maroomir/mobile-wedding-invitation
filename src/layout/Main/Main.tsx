@@ -1,7 +1,9 @@
 import styled from '@emotion/styled';
 import data from 'data.json';
 import mainImg from '@/assets/images/image205.jpg';
+import mainVideo from '@/assets/video/prewedding.mp4';
 import DDay from './DDay';
+import Video from './Video';
 
 const Main = () => {
   const { greeting } = data;
@@ -11,6 +13,8 @@ const Main = () => {
       <MainImg src={mainImg} />
       <MainTitle>{greeting.title}</MainTitle>
       <DDay eventDate={greeting.eventDate} />
+      <br />
+      <Video videoFile={mainVideo} />
       <br />
     </MainWrapper>
   );
